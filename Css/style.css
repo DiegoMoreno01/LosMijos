@@ -1,0 +1,134 @@
+/* General styles */
+body {
+    font-family: 'Arvo', sans-serif;
+    background-color: #fff0ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 20px;
+    position: relative;
+    overflow: hidden; /* Esto elimina la barra de desplazamiento */
+}
+
+
+body::before {
+    content: "🧩 🤍 🪐 🧩 🤍 🪐 🧩 🤍 🪐 🧩 🤍 🪐 🧩 🤍 🪐 🧩 🤍 🪐 🧩 🤍 🪐 🧩 🤍 🪐 🧩 🤍 🪐 🧩 🤍 🪐 🧩 🤍 🪐 🧩 🤍 🪐 🧩 🤍 🪐 🧩 🤍 🪐 🧩 🤍 🪐 🧩 🤍 🪐 🧩 🤍 🪐 🧩 🤍 🪐 🧩 🤍 🪐 🧩 🤍 🪐 🧩 🤍 🪐 🧩 🤍 🪐 🧩 🤍 🪐 🧩 🤍 🪐 🧩 🤍 🪐 🧩 🤍 🪐 🧩 🤍 🪐 🧩 🤍 🪐 🧩 🤍 🪐 🧩 🤍 🪐 🧩 🤍 🪐 🧩 🤍 🪐 🧩 🤍 🪐 🧩 🤍 🪐 🧩 🤍 🪐 🧩 🤍 🪐 🧩 🤍 🪐 🧩 🤍 🪐 🧩 🤍 🪐 🧩 🤍 🪐 🧩 🤍 🪐 🧩 🤍 🪐 🧩 🤍 🪐 🧩 🤍 🪐 🧩 🤍 🪐 🧩 🤍 🪐 🧩 🤍 🪐 🧩 🤍 🪐 🧩 🤍 🪐 🧩 🤍 🪐 🧩 🤍 🪐 🧩 🤍 🪐 🧩 🤍 🪐 🧩 🤍 🪐 🧩 🤍 🪐 🧩 🤍 🪐 🧩 🤍 🪐 🧩 🤍 🪐 🧩 🤍 🪐 🧩 🤍 🪐 🧩 🤍 🪐 🧩 🤍 🪐 🧩 🤍 🪐 🧩 🤍 🪐 🧩 🤍 🪐 🧩 🤍 🪐 🧩 🤍 🪐 🧩 🤍 🪐 🧩 🤍 🪐 🧩 🤍 🪐 🧩 🤍 🪐 🧩 🤍 🪐 🧩 🤍 🪐 🧩 🤍 🪐 🧩 🤍 🪐 🧩 🤍 🪐 🧩 🤍 🪐 🧩 🤍 🪐 🧩 🤍 🪐 🧩 🤍 🪐 🧩 🤍 🪐 🧩 🤍 🪐 🧩 🤍 🪐 🧩 🤍 🪐 🧩 🤍 🪐 🧩 🤍 🪐 🧩 🤍 🪐 🧩 🤍 🪐 🧩 🤍 🪐 🧩 🤍 🪐 🧩 🤍 🪐 🧩 🤍 🪐 🧩 🤍 🪐 🧩 🤍 🪐 🧩 🤍 🪐 🧩 🤍 🪐 🧩 🤍 🪐 🧩 🤍 🪐 🧩 🤍 🪐 🧩 🤍 🪐 🧩 🤍 🪐 🧩 🤍 🪐 🧩 🤍 🪐 🧩 🤍 🪐 🧩 🤍 🪐 🧩 🤍 🪐 🧩 🤍 🪐 🧩 🤍 🪐 🧩 🤍 🪐 🧩 🤍 🪐 🧩 🤍 🪐 🧩 🤍 🪐 🧩 🤍 🪐 🧩 🤍 🪐 🧩 🤍 🪐";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    font-size: 40px;
+    color: rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: space-between; /* Asegurar que se distribuyan en todo el ancho */
+    flex-wrap: wrap;
+    align-content: space-between; /* Asegurar que cubra todo el alto */
+    pointer-events: none;
+    z-index: 0;
+}
+
+/* Container styles */
+.container {
+    text-align: center;
+    padding: 30px;
+    background-color: #d5ffff;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    width: 50%;
+    position: relative;
+    z-index: 1;
+}
+
+/* Title styles */
+h1 {
+    font-family: 'Arvo', serif;
+    font-weight: 700;
+    font-size: 48px !important;
+    margin-bottom: 30px;
+}
+
+/* Button styles */
+button {
+    all: unset;
+    font-size: 40px !important;
+    padding: 30px 80px !important;
+    margin: 20px !important;
+    border-radius: 12px !important;
+    background-color: #cb4c46 !important;
+    color: white !important;
+    text-align: center;
+    cursor: pointer;
+    font-family: 'Playwrite DE Grund', sans-serif !important;
+    display: inline-block;
+    text-align: center;
+}
+
+#yesButton {
+    background-color: #cb4c46 !important;
+}
+
+#noButton {
+    background-color: #7f4ca5 !important;
+}
+
+button:hover {
+    opacity: 0.9 !important;
+}
+
+/* Celebration styles (hidden by default) */
+#celebration {
+    display: none;
+    margin-top: 20px;
+    font-family: 'Playwrite DE Grund', sans-serif;
+    font-size: 24px;
+    color: #005954;
+}
+
+/* Modal styles */
+.modal {
+    display: none; /* Oculto por defecto */
+    position: fixed;
+    z-index: 2;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo oscuro */
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    text-align: center;
+    font-size: 24px;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover, .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Confetti animation styles */
+#confettiCanvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 2;
+}
