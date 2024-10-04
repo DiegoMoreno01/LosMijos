@@ -132,3 +132,31 @@ button:hover {
     pointer-events: none;
     z-index: 2;
 }
+
+/* Ajustes para pantallas móviles */
+@media only screen and (max-width: 600px) {
+    h1 {
+        font-size: 24px !important;
+    }
+
+    button {
+        font-size: 24px !important;
+        padding: 15px 40px !important;
+    }
+
+    .container {
+        width: 90%; /* Ajustar el tamaño de la caja al 90% del ancho de la pantalla */
+    }
+
+    /* Reducir márgenes y espacios para dispositivos móviles */
+    .buttons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    button {
+        margin: 10px 0 !important;
+        width: 80%; /* Ajustar el ancho de los botones al 80% */
+    }
+}
